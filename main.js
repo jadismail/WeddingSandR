@@ -3,7 +3,7 @@ const hoursRemaining = document.getElementById('hour')
 const minutesRemaining = document.getElementById('min')
 const secondsRemaining = document.getElementById('sec')
 
-const marriedDate = new Date('Jun 5, 2022 13:00:00').getTime()
+const marriedDate = new Date('Jun 5, 2022 17:00:00').getTime()
 
 function countDown() {
     const currentDate = new Date().getTime()
