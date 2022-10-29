@@ -17,6 +17,7 @@ html {
 
 body {
   font-size: 2rem;
+  overflow: hidden;
 }
 
 .countdown-background {
@@ -52,6 +53,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  width: 110%;
 }
 
 .countdown-heading {
